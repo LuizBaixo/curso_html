@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+
+}
+
+main {
+    
+    background-color: pink;
+}
+
+.abc {
+    background-color: yellow;
+    width: 50%;
+    height: 50px;
+    margin: 0px auto;
+
+    position: relative;
+
+
+}
+
+.def {
+    background-color: green;
+    width: 50%;
+    height: 50px;
+
+    position: fixed;
+}
+
+.ghi {
+    background-color: black;
+    width: 25%;
+    height: 25px;
+    color: white;
+
+    position: absolute;
+    left: 65px;
+    top: 65px;
+    z-index: 1;
+}
+
+.jkl {
+    background-color: red;
+    width: 50%;
+    height: 50px;
+    color: white;
+
+    position: absolute;
+    left: 90px;
+    top: 90px;
+
+    z-index: 2;
+}
